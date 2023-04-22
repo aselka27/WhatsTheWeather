@@ -13,6 +13,7 @@ final class CityViewModel: ObservableObject {
     @Published var weather: WeatherResponse?
     @Published var city: String = "Unknown"
     @Published var country: String = "Unknown"
+    var measurementTypes = ["F\u{00B0}", "C\u{00B0}"]
     
     private lazy var dateFormatter: DateFormatter = {
         let formatter = DateFormatter()
@@ -45,9 +46,17 @@ final class CityViewModel: ObservableObject {
         }
         return "sun.max.fill"
     }
+    
+    var tempCelsius: String {
+        let degreeSymbol = "\u{00B0}"
+        let celcius = ((weather?.list?.first?.main?.temp ?? 0.0) - 32) * 5 / 9
+        
+        return "\(getTempFor(temp: celcius))\(degreeSymbol)"
+    }
 
     var temperature: String {
-        return getTempFor(temp: weather?.list?.first?.main?.temp ?? 0.0)
+        let degreeSymbol = "\u{00B0}"
+        return "\(getTempFor(temp: weather?.list?.first?.main?.temp ?? 0.0))\(degreeSymbol)"
     }
     
     var airPressure: String {
@@ -66,6 +75,10 @@ final class CityViewModel: ObservableObject {
         return String(format: "%0.0f%%", weather?.list?.first?.wind?.gust ?? 0.0)
     }
    
+    var visibility: String {
+        let visibilityInMiles = Double((weather?.list?.first?.visibility ?? Int(0.0)))*0.00062137
+        return String(format: "%0.1f", visibilityInMiles)
+    }
     
     init() {
       

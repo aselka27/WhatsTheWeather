@@ -30,8 +30,8 @@
             filePath = "WhatsTheWeather/ViewModels/CityViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "93"
-            endingLineNumber = "93"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
             landmarkName = "getWeatherFor(city:urlString:)"
             landmarkType = "7">
             <Locations>
@@ -328,8 +328,8 @@
             filePath = "WhatsTheWeather/ViewModels/CityViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "96"
-            endingLineNumber = "96"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
             landmarkName = "getWeatherFor(city:urlString:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -437,8 +437,8 @@
             filePath = "WhatsTheWeather/ViewModels/CityViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "88"
-            endingLineNumber = "88"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
             landmarkName = "getWeather(coord:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -453,8 +453,8 @@
             filePath = "WhatsTheWeather/ContentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "74"
-            endingLineNumber = "74"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
             landmarkName = "body"
             landmarkType = "24">
             <Locations>

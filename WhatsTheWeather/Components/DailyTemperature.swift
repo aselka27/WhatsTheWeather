@@ -31,10 +31,10 @@ struct DailyTemperature: View {
             .padding(.horizontal, 25)
             .padding(.vertical, 12)
         }
-        .overlay(
-            RoundedRectangle(cornerRadius: 25)
-                .stroke(Color("lightGray"), lineWidth: 1)
-        )
+//        .overlay(
+//            RoundedRectangle(cornerRadius: 25)
+//                .stroke(Color("lightGray"), lineWidth: 1)
+//        )
     }
 }
 

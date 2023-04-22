@@ -20,6 +20,7 @@ struct DailyWeather: Codable {
     let rain: Rain?
     let sys: Sys?
     let dtTxt: String?
+    let city: City?
 }
 
 

@@ -10,6 +10,8 @@ import SwiftUI
 struct ContentView: View {
     @StateObject var viewModel = CityViewModel()
     @EnvironmentObject var locationManager: LocationManager
+   @State private var temperatureMeasurement = "F\u{00B0}"
+    private let dailyWeatherRow: [GridItem] = [GridItem(.adaptive(minimum: 50))]
     var body: some View {
         ZStack {
             VStack {
@@ -25,34 +27,51 @@ struct ContentView: View {
                     Text(viewModel.country)
                         .font(.custom("SF-Pro", size: 19))
                             .foregroundColor(.white)
+                    Picker("measurement", selection: $temperatureMeasurement) {
+                        ForEach(viewModel.measurementTypes, id: \.self) {
+                            Text($0)
+                                
+                                .padding()
+                        }
+                    }
+                    .pickerStyle(.segmented)
+                    
+                    
+                    .frame(width: 70, height: 30)
+                 
                     Spacer()
-                    TodayTemperature(icon: viewModel.weatherIcon, temperature: viewModel.temperature)
+                    TodayTemperature(icon: viewModel.weatherIcon, temperature: temperatureMeasurement == "F\u{00B0}" ? viewModel.temperature : viewModel.tempCelsius)
                         .shadow(color: .white, radius: 12)
                     Spacer()
                          cityInfoView
                     Spacer()
                         }
-//                .padding(.top, 35)
+
                  Spacer()
                 ZStack {
-                    VStack(alignment: .leading) {
-                        Text("The next 5 days")
-                        
+                    VStack(alignment: .center) {
+                        Text("The next hours")
                            .bold()
                            .padding(.leading, 30)
                            .padding(.top)
-                        ScrollView(.horizontal, showsIndicators: false) {
-                            LazyHStack() {
+                        
+                        LazyHStack(alignment: .center) {
                                 if let weatherList = viewModel.weather?.list {
-                                    ForEach(weatherList, id: \.id) { weather in
+                                    ForEach(weatherList, id: \.dt) { weather in
                                         DailyTemperature(dailyWeather: weather)
+                                            .padding(.horizontal, 5)
+                                            .padding(.vertical, 5)
+                                            .overlay(
+                                                RoundedRectangle(cornerRadius: 25)
+                                                    .stroke(Color("lightGray"), lineWidth: 1)
+                                            )
                                     }
                                 }
+                                  
                             }
                             .padding(.horizontal)
-                        }
+                        
                         Spacer()
-                      
                     }
                     .padding(.top)
                     
@@ -101,7 +120,7 @@ extension ContentView {
             VStack(alignment: .center) {
                 Text("Visibility")
                     .foregroundColor(.white)
-                Text("6.4 miles")
+                Text("\(viewModel.visibility) miles")
                     .foregroundColor(.white)
                 Text("Air pressure")
                     .foregroundColor(.white)
