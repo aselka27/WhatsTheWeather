@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "8D6F9E88-EE24-44E0-B262-3A0F1CE54295"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "78199AF3-D4D1-4444-83F9-E2FEC2D100C7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WhatsTheWeather/Services/NetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "performFetch(with:successModel:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7723C865-AE60-4117-BE16-8A87C6E8A87A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WhatsTheWeather/ViewModels/CityViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
+            landmarkName = "getWeatherFor(city:urlString:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7723C865-AE60-4117-BE16-8A87C6E8A87A - 5d02ba7ac2324180"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WhatsTheWeather.CityViewModel.getWeatherFor(city: Swift.String, urlString: Swift.String) -&gt; ()"
+                  moduleName = "WhatsTheWeather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sargashkaeva/Desktop/WhatsTheWeather/WhatsTheWeather/ViewModels/CityViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "106"
+                  endingLineNumber = "106"
+                  offsetFromSymbolStart = "129">
+               </Location>
+               <Location
+                  uuid = "7723C865-AE60-4117-BE16-8A87C6E8A87A - 66d942c0fa4270dc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;WhatsTheWeather.WeatherResponse, WhatsTheWeather.NetworkError&gt;) -&gt; () in WhatsTheWeather.CityViewModel.getWeatherFor(city: Swift.String, urlString: Swift.String) -&gt; ()"
+                  moduleName = "WhatsTheWeather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sargashkaeva/Desktop/WhatsTheWeather/WhatsTheWeather/ViewModels/CityViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "108"
+                  endingLineNumber = "108"
+                  offsetFromSymbolStart = "1332">
+               </Location>
+               <Location
+                  uuid = "7723C865-AE60-4117-BE16-8A87C6E8A87A - 66d942c0fa4270dc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;WhatsTheWeather.WeatherResponse, WhatsTheWeather.NetworkError&gt;) -&gt; () in WhatsTheWeather.CityViewModel.getWeatherFor(city: Swift.String, urlString: Swift.String) -&gt; ()"
+                  moduleName = "WhatsTheWeather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sargashkaeva/Desktop/WhatsTheWeather/WhatsTheWeather/ViewModels/CityViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "108"
+                  endingLineNumber = "108"
+                  offsetFromSymbolStart = "911">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E6D615D9-3B94-4672-A58F-BC0E7972E4A9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WhatsTheWeather/Services/NetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "performFetch(with:successModel:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A4D34957-303B-4BE9-B1FB-A2E562871F9F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WhatsTheWeather/Services/NetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "performFetch(with:successModel:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A4D34957-303B-4BE9-B1FB-A2E562871F9F - 5a8384c50d57e341"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WhatsTheWeather.NetworkService.performFetch&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(with: Foundation.URL, successModel: &#x3c4;_0_0.Type, completion: (WhatsTheWeather.RequestResult&lt;&#x3c4;_0_0&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "WhatsTheWeather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sargashkaeva/Desktop/WhatsTheWeather/WhatsTheWeather/Services/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "235">
+               </Location>
+               <Location
+                  uuid = "A4D34957-303B-4BE9-B1FB-A2E562871F9F - b5a7a2b3f8e7c8b9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in WhatsTheWeather.NetworkService.performFetch&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(with: Foundation.URL, successModel: &#x3c4;_0_0.Type, completion: (WhatsTheWeather.RequestResult&lt;&#x3c4;_0_0&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "WhatsTheWeather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sargashkaeva/Desktop/WhatsTheWeather/WhatsTheWeather/Services/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "571">
+               </Location>
+               <Location
+                  uuid = "A4D34957-303B-4BE9-B1FB-A2E562871F9F - b5a7a2b3f8e7c8b9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in WhatsTheWeather.NetworkService.performFetch&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(with: Foundation.URL, successModel: &#x3c4;_0_0.Type, completion: (WhatsTheWeather.RequestResult&lt;&#x3c4;_0_0&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "WhatsTheWeather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sargashkaeva/Desktop/WhatsTheWeather/WhatsTheWeather/Services/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "541">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "12BBF28E-A37E-4C56-A25B-5AEDF83D048B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WhatsTheWeather/Services/NetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "performFetch(with:successModel:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "12BBF28E-A37E-4C56-A25B-5AEDF83D048B - b5a7a2b3f8e7ce49"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in WhatsTheWeather.NetworkService.performFetch&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(with: Foundation.URL, successModel: &#x3c4;_0_0.Type, completion: (WhatsTheWeather.RequestResult&lt;&#x3c4;_0_0&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "WhatsTheWeather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sargashkaeva/Desktop/WhatsTheWeather/WhatsTheWeather/Services/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "2829">
+               </Location>
+               <Location
+                  uuid = "12BBF28E-A37E-4C56-A25B-5AEDF83D048B - b5a7a2b3f8e7ce49"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in WhatsTheWeather.NetworkService.performFetch&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(with: Foundation.URL, successModel: &#x3c4;_0_0.Type, completion: (WhatsTheWeather.RequestResult&lt;&#x3c4;_0_0&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "WhatsTheWeather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sargashkaeva/Desktop/WhatsTheWeather/WhatsTheWeather/Services/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "798">
+               </Location>
+               <Location
+                  uuid = "12BBF28E-A37E-4C56-A25B-5AEDF83D048B - b5a7a2b3f8e7ce68"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in WhatsTheWeather.NetworkService.performFetch&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(with: Foundation.URL, successModel: &#x3c4;_0_0.Type, completion: (WhatsTheWeather.RequestResult&lt;&#x3c4;_0_0&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "WhatsTheWeather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sargashkaeva/Desktop/WhatsTheWeather/WhatsTheWeather/Services/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "798">
+               </Location>
+               <Location
+                  uuid = "12BBF28E-A37E-4C56-A25B-5AEDF83D048B - b5a7a2b3f8e7ce68"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in WhatsTheWeather.NetworkService.performFetch&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(with: Foundation.URL, successModel: &#x3c4;_0_0.Type, completion: (WhatsTheWeather.RequestResult&lt;&#x3c4;_0_0&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "WhatsTheWeather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sargashkaeva/Desktop/WhatsTheWeather/WhatsTheWeather/Services/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "900">
+               </Location>
+               <Location
+                  uuid = "12BBF28E-A37E-4C56-A25B-5AEDF83D048B - b5a7a2b3f8e7ced4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in WhatsTheWeather.NetworkService.performFetch&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(with: Foundation.URL, successModel: &#x3c4;_0_0.Type, completion: (WhatsTheWeather.RequestResult&lt;&#x3c4;_0_0&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "WhatsTheWeather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sargashkaeva/Desktop/WhatsTheWeather/WhatsTheWeather/Services/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "900">
+               </Location>
+               <Location
+                  uuid = "12BBF28E-A37E-4C56-A25B-5AEDF83D048B - b5a7a2b3f8e7ced4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in WhatsTheWeather.NetworkService.performFetch&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(with: Foundation.URL, successModel: &#x3c4;_0_0.Type, completion: (WhatsTheWeather.RequestResult&lt;&#x3c4;_0_0&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "WhatsTheWeather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sargashkaeva/Desktop/WhatsTheWeather/WhatsTheWeather/Services/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "948">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F8C4C9D3-8674-41EF-8345-FE503A590A7E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WhatsTheWeather/Services/NetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "performFetch(with:successModel:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F8C4C9D3-8674-41EF-8345-FE503A590A7E - b5a7a2b3f8e7c87f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in WhatsTheWeather.NetworkService.performFetch&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(with: Foundation.URL, successModel: &#x3c4;_0_0.Type, completion: (WhatsTheWeather.RequestResult&lt;&#x3c4;_0_0&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "WhatsTheWeather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sargashkaeva/Desktop/WhatsTheWeather/WhatsTheWeather/Services/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "556">
+               </Location>
+               <Location
+                  uuid = "F8C4C9D3-8674-41EF-8345-FE503A590A7E - b5a7a2b3f8e7c87f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in WhatsTheWeather.NetworkService.performFetch&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(with: Foundation.URL, successModel: &#x3c4;_0_0.Type, completion: (WhatsTheWeather.RequestResult&lt;&#x3c4;_0_0&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "WhatsTheWeather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sargashkaeva/Desktop/WhatsTheWeather/WhatsTheWeather/Services/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "744">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "422C3704-89B2-47E9-BC5C-09AEC5CF7230"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WhatsTheWeather/ViewModels/CityViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+            landmarkName = "getWeatherFor(city:urlString:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B32C97B7-7179-4D98-85E9-795A4D28A02C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WhatsTheWeather/Services/LocationManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "locationManager(_:didUpdateLocations:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B32C97B7-7179-4D98-85E9-795A4D28A02C - 616b78cc00cc06e4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WhatsTheWeather.LocationManager.locationManagerDidChangeAuthorization(__C.CLLocationManager) -&gt; ()"
+                  moduleName = "WhatsTheWeather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sargashkaeva/Desktop/WhatsTheWeather/WhatsTheWeather/Services/LocationManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "45">
+               </Location>
+               <Location
+                  uuid = "B32C97B7-7179-4D98-85E9-795A4D28A02C - dd26fbd3ddfeea21"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WhatsTheWeather.LocationManager.locationManager(_: __C.CLLocationManager, didUpdateLocations: Swift.Array&lt;__C.CLLocation&gt;) -&gt; ()"
+                  moduleName = "WhatsTheWeather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sargashkaeva/Desktop/WhatsTheWeather/WhatsTheWeather/Services/LocationManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "93">
+               </Location>
+               <Location
+                  uuid = "B32C97B7-7179-4D98-85E9-795A4D28A02C - dd26fbd3ddfeeaef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WhatsTheWeather.LocationManager.locationManager(_: __C.CLLocationManager, didUpdateLocations: Swift.Array&lt;__C.CLLocation&gt;) -&gt; ()"
+                  moduleName = "WhatsTheWeather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sargashkaeva/Desktop/WhatsTheWeather/WhatsTheWeather/Services/LocationManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "93">
+               </Location>
+               <Location
+                  uuid = "B32C97B7-7179-4D98-85E9-795A4D28A02C - dd26fbd3ddfeeaef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WhatsTheWeather.LocationManager.locationManager(_: __C.CLLocationManager, didUpdateLocations: Swift.Array&lt;__C.CLLocation&gt;) -&gt; ()"
+                  moduleName = "WhatsTheWeather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sargashkaeva/Desktop/WhatsTheWeather/WhatsTheWeather/Services/LocationManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "B32C97B7-7179-4D98-85E9-795A4D28A02C - dd26fbd3ddfeeaad"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WhatsTheWeather.LocationManager.locationManager(_: __C.CLLocationManager, didUpdateLocations: Swift.Array&lt;__C.CLLocation&gt;) -&gt; ()"
+                  moduleName = "WhatsTheWeather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sargashkaeva/Desktop/WhatsTheWeather/WhatsTheWeather/Services/LocationManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2F209A68-A5D9-4F8E-A489-ADB03F784467"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WhatsTheWeather/ViewModels/CityViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "getWeather(coord:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EBA95A50-7E8D-494C-9BA8-CBE17A1BFD6D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WhatsTheWeather/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "EBA95A50-7E8D-494C-9BA8-CBE17A1BFD6D - 6d7157d88d1e9a25"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in WhatsTheWeather.ContentView.body.getter : some"
+                  moduleName = "WhatsTheWeather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sargashkaeva/Desktop/WhatsTheWeather/WhatsTheWeather/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "220">
+               </Location>
+               <Location
+                  uuid = "EBA95A50-7E8D-494C-9BA8-CBE17A1BFD6D - 6d7157d88d1e9a0a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in WhatsTheWeather.ContentView.body.getter : some"
+                  moduleName = "WhatsTheWeather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sargashkaeva/Desktop/WhatsTheWeather/WhatsTheWeather/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "168">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

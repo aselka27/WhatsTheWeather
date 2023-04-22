@@ -9,9 +9,15 @@ import SwiftUI
 
 @main
 struct WhatsTheWeatherApp: App {
+   var locationManager: LocationManager = LocationManager()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(locationManager)
+                .onAppear {
+                    locationManager.requestLocation()
+                }
         }
     }
 }
